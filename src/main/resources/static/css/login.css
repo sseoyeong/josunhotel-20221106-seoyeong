@@ -1,0 +1,98 @@
+.submain {
+    margin-top: 100px;
+}
+
+.login {
+    position: relative;
+
+    width: 1400px;
+
+    margin: 0 450px;
+}
+
+.topArea {
+    padding: 90px 0px 70px;
+}
+
+.sign-in {
+    margin: 0px;
+
+    font: 48px playfair;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.pageGuide {
+    margin: 18px 0px 0px;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    
+    margin: 0 auto;
+}
+
+section { 
+    width: 512px;
+}
+
+.subtitle {
+
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    
+    cursor: pointer;
+}
+
+.subtitle:hover {
+    opacity: 0.5;
+}
+
+.account-input {
+    height: 60px;
+    margin-bottom: 15px;
+
+    background-color: #f9f9f9;
+}
+
+.firm {
+    display: flex;
+}
+
+.account-button {
+    margin-bottom: 15px;
+
+    height: 50px;
+    width: 100%;
+
+    font-weight: 700;
+    color: white;
+    background-color: black;
+}
+
+.account-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.loginGuide {
+    margin: 0px;
+
+    font-size: 14px;
+}
+
+.no-member-reserve {
+    padding-left: 30px;
+}
+
+.main-footer {
+    margin: 60px 450px;
+}
+
+.subGuide {
+    margin: 9px 0px;
+
+    font-size: 12px;
+    color: gray;
+}
