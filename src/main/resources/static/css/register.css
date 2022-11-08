@@ -1,0 +1,46 @@
+.main-box {
+    margin: 100px 340px 0px 340px;
+}
+
+.join-page {
+    position: relative;
+
+    width: 1400px;
+}
+
+.join {
+    padding: 90px 0px 40px;
+}
+
+.joinNow {
+    margin: 0px;
+
+    font: 48px playfair;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.info-write {
+    font-weight: 400;
+}
+
+.frmBox {
+    margin: 50px 340px 0px 340px;
+}
+
+.frmInfo {
+    margin: 0;
+    padding: 0;
+}
+
+.tit label {
+    color: #b01414;
+}
+
+.intInner {
+    display: flex;
+}
+
+.intArea {
+    border-bottom: 1px solid black;
+    width: 100%;
+}

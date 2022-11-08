@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="/static/css/header.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/register.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="header-container">
+                <div class="header-left-container">
+                    <div class="nav-menu-button">
+                        <img class="nav-menu-button-link" src="/static/images/btn_menu.png" alt="메뉴">
+                    </div>
+                    <div class="main-site-logo">
+                        <div class="site-logo">JOSUN HOTELS & RESORTS</div>
+                    </div>
+                    <div class="find-hotel-button">
+                        <div class="find-button">호텔찾기
+                            <img src="/static/images/btn_find.png" alt="더보기">
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right-container">
+                    <ul>
+                        <li><a class="header-login-button" href="">로그인</a></li>
+                        <li><a class="header-regist-button" href="">회원가입</a></li>
+                        <li><a class="header-reserve-button" href="">예약확인</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="nav-invisible">
+                <div class="site-nav-button">
+                    <div class="menu-button">MY PAGE</div>
+                    <a class="site-nav-child-button" href="">MY PAGE</a>
+                    <a class="site-nav-child-button" href="">MY POINT</a>
+                    <a class="site-nav-child-button" href="">MY COUPON</a>
+                    <a class="site-nav-child-button" href="">예약확인</a>
+                    <a class="site-nav-child-button" href="">관심리스트</a>
+                    <a class="site-nav-child-button" href="">개인정보관리</a>
+                    <div class="menu-button-n">CUSTOMER SERVICE</div>
+                    <a class="site-nav-child-button" href="">Q&A</a>
+                    <a class="site-nav-child-button" href="">FAQ</a>
+                    <a class="site-nav-child-button" href="">GIFT CARD</a>
+                </div>
+            </nav>
+            <script src="/static/js/header/header.js"></script>
+        </header>
+        <main>
+            <div class="main-box">
+                <div class="join-page">
+                    <div class="join">
+                        <h2 class="joinNow">JOIN NOW</h2>
+                    </div>
+                </div>
+                <div class="infomation">
+                    <h2 class="info-write">필수정보 입력</h2>
+                </div>
+            </div>
+            <div class="frmBox">
+                <div class="frmInfo">
+                    <div class="intWrap">
+                        <span class="tit">
+                            <label for="eName">ENGLISH NAME＊</label>
+                        </span>
+                    </div>
+                    <div class="intInner">
+                        <span class="intArea">
+                            <input type="text" id="username" placeholder="Family Name(성)">
+                        </span>
+                        <span class="intArea">
+                            <input type="text" id="username" placeholder="First Name(이름)">
+                        </span>
+                    </div>
+                    <div class="intWrap">
+                        <label for="id">ID＊</label>
+                    </div>
+                    <div class="intInner">
+                        <span class="intArea">
+                            <input type="text" id="id" placeholder="영문/숫자 조합으로 8 ~ 12자리로만 가능합니다.">
+                        </span>
+                        <button type="button" class="btnSC">ID 중복 확인</button>
+                    </div>
+                    <div class="intWrap">
+                        <label for="password">PASSWORD＊</label>
+                        <label for="password">CONFIRM PASSWORD＊</label>
+                    </div>
+                    <div class="intInner">
+                        <span class="intArea">
+                            <input type="text" id="password" placeholder="영문/숫자/특수문자를 사용하며, 8 ~ 12자리로만 가능합니다.">
+                        </span>
+                        <span class="intArea">
+                            <input type="text" id="password" placeholder="영문/숫자/특수문자를 사용하며, 8 ~ 12자리로만 가능합니다.">
+                        </span>
+                    </div>
+                    <div class="intWrap">
+                        <label for="email">E-MAIL＊</label>
+                    </div>
+                    <div class="intInner">
+                        <span class="intArea">
+                            <input type="text" id="email">
+                        </span>
+                        <span class="dash">@</span>
+                        <span class="intArea">
+                            <input type="text" id="email">
+                        </span>
+                        <button type="button" class="btnSC">중복 확인</button>
+                    </div>
+                </div>
+                <div class="btnArea">
+                    <button type="button" class="btnSC">취소</button>
+                    <button type="button" class="btnSC">회원가입</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            
+        </footer>
+    </div>
+</body>
+</html>
