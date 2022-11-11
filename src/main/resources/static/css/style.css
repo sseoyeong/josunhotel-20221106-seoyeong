@@ -15,8 +15,6 @@ ul, li {
     margin: 0;
     padding: 0;
     list-style-type: none;
-
-    display: flex;
 }
 
 input {
@@ -30,4 +28,11 @@ input {
 .btn {
     border: 1px solid black;
     padding: 10px;
+}
+
+button {
+    border: 1px solid black;
+    background: none;
+
+    cursor: pointer;
 }

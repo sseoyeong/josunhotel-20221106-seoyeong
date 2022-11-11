@@ -52,69 +52,77 @@
             <script src="/static/js/header/header.js"></script>
         </header>
         <main>
-            <div class="main-box">
-                <div class="join-page">
-                    <div class="join">
-                        <h2 class="joinNow">JOIN NOW</h2>
-                    </div>
+            <div class="topArea">
+                <div class="topInner">
+                    <h2 class="titDep1">JOIN NOW</h2>
                 </div>
-                <div class="infomation">
-                    <h2 class="info-write">필수정보 입력</h2>
-                </div>
-            </div>
-            <div class="frmBox">
-                <div class="frmInfo">
-                    <div class="intWrap">
-                        <span class="tit">
-                            <label for="eName">ENGLISH NAME＊</label>
-                        </span>
+                <div class="inner">
+                    <h2 class="titDep2">필수정보 입력</h2>
+                    <div class="frmBox">
+                        <div class="userInfo"></div>
+                        <div class="frmInfo">
+                            <ul class="intList">
+                                <li class="error">
+                                    <div class="intWrap">
+                                        <span class="tit">
+                                            <label for="eName">ENGLISH NAME＊</label>
+                                        </span>
+                                    </div>
+                                    <div class="intInner duobuleInp">
+                                        <span class="intArea">
+                                            <input type="text" id="eName" placeholder="Family Name(성)">
+                                        </span>
+                                        <span class="intArea">
+                                            <input type="text" id="eName2" placeholder="First Name(이름)">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="intWrap">
+                                        <span class="tit">
+                                            <label for="userId">ID＊</label>
+                                        </span>
+                                    </div>
+                                    <div class="intInner">
+                                        <span class="intArea">
+                                            <input type="text" id="userId" placeholder="영문/숫자 조합으로 8 ~ 12자리로만 가능합니다.">
+                                        </span>
+                                        <button type="button" class="btnSC">ID 중복 확인</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="intWrap">
+                                        <span class="tit">
+                                            <label for="password">PASSWORD＊</label>
+                                        </span>
+                                    </div>
+                                    <div class="intInner">
+                                        <span class="intArea">
+                                            <input type="password" id="userPw" placeholder="영문/숫자/특수문자를 사용하며, 8 ~ 12자리로만 가능합니다.">
+                                        </span>
+                                    </div>
+                                    <p class="txtGuide">＊비밀번호가 내 ID가 포함되거나, 연속되는 문자 또는 숫자는 3자리 이상을 사용할 수 없습니다.</p>
+                                    <p class="txtGuide">＊특수문자(!@#$%^&+=)중 하나를 선택하시면 됩니다.</p>
+                                </li>
+                                <li class="intList-repwd">
+                                    <div class="intWrap">
+                                        <span class="tit">
+                                            <label for="cfmPw">CONFIRM PASSWORD＊</label>
+                                        </span>
+                                    </div>
+                                    <div class="intInner">
+                                        <span class="intArea">
+                                            <input type="password" id="userPwRe" placeholder="영문/숫자/특수문자를 사용하며, 8 ~ 12자리로만 가능합니다.">
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="intInner">
-                        <span class="intArea">
-                            <input type="text" id="username" placeholder="Family Name(성)">
-                        </span>
-                        <span class="intArea">
-                            <input type="text" id="username" placeholder="First Name(이름)">
-                        </span>
+                    <div class="btnArea">
+                        <button type="button" class="btnSC btnL">취소</button>
+                        <button type="button" class="btnSC btnL active" id="join-complete">회원가입</button>
                     </div>
-                    <div class="intWrap">
-                        <label for="id">ID＊</label>
-                    </div>
-                    <div class="intInner">
-                        <span class="intArea">
-                            <input type="text" id="id" placeholder="영문/숫자 조합으로 8 ~ 12자리로만 가능합니다.">
-                        </span>
-                        <button type="button" class="btnSC">ID 중복 확인</button>
-                    </div>
-                    <div class="intWrap">
-                        <label for="password">PASSWORD＊</label>
-                        <label for="password">CONFIRM PASSWORD＊</label>
-                    </div>
-                    <div class="intInner">
-                        <span class="intArea">
-                            <input type="text" id="password" placeholder="영문/숫자/특수문자를 사용하며, 8 ~ 12자리로만 가능합니다.">
-                        </span>
-                        <span class="intArea">
-                            <input type="text" id="password" placeholder="영문/숫자/특수문자를 사용하며, 8 ~ 12자리로만 가능합니다.">
-                        </span>
-                    </div>
-                    <div class="intWrap">
-                        <label for="email">E-MAIL＊</label>
-                    </div>
-                    <div class="intInner">
-                        <span class="intArea">
-                            <input type="text" id="email">
-                        </span>
-                        <span class="dash">@</span>
-                        <span class="intArea">
-                            <input type="text" id="email">
-                        </span>
-                        <button type="button" class="btnSC">중복 확인</button>
-                    </div>
-                </div>
-                <div class="btnArea">
-                    <button type="button" class="btnSC">취소</button>
-                    <button type="button" class="btnSC">회원가입</button>
                 </div>
             </div>
         </main>
