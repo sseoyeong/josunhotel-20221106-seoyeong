@@ -1,0 +1,74 @@
+.topArea {
+    display: table;
+    position: relative;
+
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.topInner {
+    padding: 97px 0px 10px;
+}
+
+.titDep1 {
+    font: 500 45px playfair;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.cont {
+    width: 900px;
+}
+
+.titDep2 {
+    margin-bottom: 5px;
+
+    font-family: playfair;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.categoryTxt{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+/* .intWrap {
+    margin-top: 42px;
+}
+
+.intWrap span {
+    display: inline-block;
+    position: relative;
+}
+
+.intInner {
+    display: inline-block;
+    position: relative;
+}
+
+.intBox {
+    padding: 16px 0 5px 0;
+}
+
+.frm {
+    display: inline-block;
+    position: relative;
+}
+
+.frm input[type=radio] {
+    position: absolute;
+    left: 12px;
+    top: 16px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.frm label {
+    display: inline-block;
+    position: relative;
+    font-size: 17px;
+    padding-left: 35px;
+    text-transform: uppercase;
+} */

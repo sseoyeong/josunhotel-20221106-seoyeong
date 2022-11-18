@@ -7,7 +7,7 @@
     <title>회원가입</title>
     <link rel="stylesheet" href="/static/css/header.css">
     <link rel="stylesheet" href="/static/css/style.css">
-    <link rel="stylesheet" href="/static/css/booking.css">
+    <link rel="stylesheet" href="/static/css/bookingInfo.css">
 </head>
 <body>
     <div id="container">
@@ -72,15 +72,63 @@
                                         <div class="intArea">
                                             <div class="intBox">
                                                 <span class="frm">
-                                                    <input type="radio" id="gender1">MALE
+                                                    <input type="radio" id="gender1">
+                                                    <label for="gender1">MALE</label>
                                                 </span>
                                                 <span class="frm">
-                                                    <input type="radio" id="gender2">FEMALE
+                                                    <input type="radio" id="gender2">
+                                                    <label for="gender2">FEMALE</label>
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
+                                <li>
+                                    <div class="intWrap">
+                                        <span class="tit">
+                                            <label for="kName">RESERVATION NAME*</label>
+                                        </span>
+                                    </div>
+                                    <div class="intInner">
+                                        <span class="intArea">
+                                            <input type="text" id="korname" placeholder="성함(국문)을 입력해주세요.">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="intWrap">
+                                        <span class="tit">
+                                            <label for="kname">ENGLISH NAME*</label>
+                                        </span>
+                                    </div>
+                                    <div class="intInner">
+                                        <span class="intArea">
+                                            <input type="text" id="lastName" placeholder="Family Name(성)">
+                                            <input type="text" id="firstName" placeholder="First Name(이름)">
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="intWrap">
+                                        <span class="tit">
+                                            <label for="phone">PHONE NUMBER</label>
+                                        </span>
+                                    </div>
+                                    <div class="intInner phoneInp">
+                                        <span class="intArea">
+                                            <input type="text" id="phoneNumber">
+                                        </span>
+                                        <span class="dash"></span>
+                                        <span class="intArea">
+                                            <input type="text" id="phoneNumber">
+                                        </span>
+                                        <span class="dash"></span>
+                                        <span class="intArea">
+                                            <input type="text" id="phoneNumber">
+                                        </span>
+                                    </div>
+                                </li>
+                                <button>결제</button>
                             </ul>
                         </div>
                     </div>

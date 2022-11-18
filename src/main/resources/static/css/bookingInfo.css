@@ -1,0 +1,86 @@
+.topArea {
+    display: table;
+    position: relative;
+
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.topInner {
+    padding: 97px 0px 10px;
+}
+
+.titDep1 {
+    font: 500 45px playfair;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.cont {
+    width: 900px;
+}
+
+.titDep2 {
+    margin-bottom: 5px;
+
+    font-family: playfair;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.categoryTxt{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.intWrap {
+    margin-top: 42px;
+}
+
+.tit {
+    display: inline-block;
+    position: relative;
+}
+
+.tit label {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.intInner {
+    margin-top: 3px;
+
+    display: inline-block;
+    position: relative;
+}
+
+.intBox {
+    padding: 16px 0px 5px 0px;
+}
+
+.frm {
+    display: inline-block;
+    position: relative;
+}
+
+.frm input[type="radio"] {
+    position: absolute;
+    left: 12px;
+    top: 20px;
+}
+
+.frm label {
+    display: inline-block;
+    position: relative;
+
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+    padding-left: 35px;
+
+}
