@@ -76,8 +76,8 @@
                                                     <label for="gender1">MALE</label>
                                                 </span>
                                                 <span class="frm">
-                                                    <input type="radio" id="gender2">
-                                                    <label for="gender2">FEMALE</label>
+                                                    <input type="radio" id="gender1">
+                                                    <label for="gender1">FEMALE</label>
                                                 </span>
                                             </div>
                                         </div>
@@ -91,7 +91,7 @@
                                     </div>
                                     <div class="intInner">
                                         <span class="intArea">
-                                            <input type="text" id="korname" placeholder="성함(국문)을 입력해주세요.">
+                                            <input type="text" class="serve" id="korname" placeholder="성함(국문)을 입력해주세요.">
                                         </span>
                                     </div>
                                 </li>
@@ -103,32 +103,76 @@
                                     </div>
                                     <div class="intInner">
                                         <span class="intArea">
-                                            <input type="text" id="lastName" placeholder="Family Name(성)">
-                                            <input type="text" id="firstName" placeholder="First Name(이름)">
+                                            <input type="text" class="serve" id="lastName" placeholder="Family Name(성)">
+                                            <input type="text" class="serve" id="firstName" placeholder="First Name(이름)">
                                         </span>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="intWrap">
                                         <span class="tit">
-                                            <label for="phone">PHONE NUMBER</label>
+                                            <label for="phone">PHONE NUMBER*</label>
                                         </span>
                                     </div>
                                     <div class="intInner phoneInp">
                                         <span class="intArea">
-                                            <input type="text" id="phoneNumber">
+                                            <input type="text" class="serveNum" id="phoneNumber" placeholder="010">
                                         </span>
-                                        <span class="dash"></span>
+                                        <span class="dash">ㅡ</span>
                                         <span class="intArea">
-                                            <input type="text" id="phoneNumber">
+                                            <input type="text" class="serveNum" id="phoneNumber">
                                         </span>
-                                        <span class="dash"></span>
+                                        <span class="dash">ㅡ</span>
                                         <span class="intArea">
-                                            <input type="text" id="phoneNumber">
+                                            <input type="text" class="serveNum" id="phoneNumber">
                                         </span>
                                     </div>
                                 </li>
-                                <button>결제</button>
+                            </ul>
+                        </div>
+                        <div class="rCont">
+                            <ul class="toggleList">
+                                <li class="toggleOn">
+                                    <strong class="listTit">
+                                        객실1
+                                        <span class="price">
+                                            <em>407,000</em>
+                                            KRW
+                                        </span>
+                                    </strong>
+                                    <div class="toggleCount">
+                                        <div class="toggleInner">
+                                            <div class="designScroll">
+                                                <div class="optionTotal">
+                                                    <ul>
+                                                       <li>
+                                                          <span class="lfData">2022.11.19</span>
+                                                          <span class="rfData">370,000</span>
+                                                       </li> 
+                                                    </ul>
+                                                    <ul class="infoData">
+                                                        <li>
+                                                            <span class="lfData">세금</span>
+                                                            <span class="rfData">37,000</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <div class="totalCount">
+                                    <div class="totalPrice">
+                                        <span class="txt">총 예약금액</span>
+                                        <span class="subPrice">
+                                            <em>407,0000</em>
+                                            KRW
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="btnArea">
+                                    <button type="button" class="btnSC">예약 완료</button>
+                                </div>
                             </ul>
                         </div>
                     </div>
