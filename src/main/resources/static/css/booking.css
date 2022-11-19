@@ -2,7 +2,6 @@
     display: table;
     position: relative;
 
-    width: 1400px;
     margin: 0 auto;
 }
 
@@ -11,64 +10,154 @@
 }
 
 .titDep1 {
+    padding-left: 350px;
     font: 500 45px playfair;
     font-family:'Times New Roman', Times, serif;
 }
 
-.cont {
-    width: 900px;
+.selResult {
+    display: flex;
+    background: #f9f9f9;
+    margin-bottom: 60px;
+    width: 1900px;
+    /* height: 140px; */
 }
 
-.titDep2 {
-    margin-bottom: 5px;
+.intinner {
+    padding: 28px 0px;
+    margin: 0 auto;
+    position: relative;
+}
 
-    font-family: playfair;
-    font-family:'Times New Roman', Times, serif;
+.infoArea {
+    position: relative;
+    display: flex;
+}
+
+.infoArea dt {
+    padding-bottom: 7px;
+
+    font-size: 14px;
     font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.infoArea dd {
+    font-size: 18px;
+}
+
+.dlType01 {
+    padding-right: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inner {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 180px;
+}
+
+.roomContainer {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.toggleList li {
+    border-bottom: 1px solid #ccc;
+    padding: 45px 0;
+    position: relative;
+}
+
+.roomIntro {
+    position: relative;
+    padding-left: 585px;
+    min-height: 352px;
+}
+
+.roomName {
+    display: block;
+    padding-top: 30px;
+    margin-bottom: 14px;
+    
     font-size: 32px;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
 }
 
-.categoryTxt{
-    margin-bottom: 30px;
-    font-size: 15px;
-}
-
-/* .intWrap {
-    margin-top: 42px;
-}
-
-.intWrap span {
-    display: inline-block;
-    position: relative;
-}
-
-.intInner {
-    display: inline-block;
-    position: relative;
-}
-
-.intBox {
-    padding: 16px 0 5px 0;
-}
-
-.frm {
-    display: inline-block;
-    position: relative;
-}
-
-.frm input[type=radio] {
+.keyWord {
     position: absolute;
-    left: 12px;
-    top: 16px;
-    width: 1px;
-    height: 1px;
-    opacity: 0;
+    left: 585px;
+    top: 0;
 }
 
-.frm label {
+.keyWord span {
     display: inline-block;
-    position: relative;
-    font-size: 17px;
-    padding-left: 35px;
+    margin: 0 5px 5px 0;
+    padding: 3px 10px 4px;
+    
+    font-size: 11px;
     text-transform: uppercase;
-} */
+    border: 1px solid #000;
+    vertical-align: top;
+}
+
+.roomBenefit {
+    max-height: 60px;
+}
+
+.priceWrap {
+    position: absolute;
+    left: 585px;
+    bottom: 1px;
+}
+
+.price {
+    display: block;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.price em {
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.day {
+    font-size: 13px;
+}
+
+.thum {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.thum img {
+    width: 495px;
+}
+
+.btnToggle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    background: black;
+    color: white;
+
+    padding: 13px 100px 13px 25px;
+}
