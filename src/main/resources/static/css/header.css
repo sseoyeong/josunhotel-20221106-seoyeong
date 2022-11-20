@@ -37,7 +37,7 @@
     cursor: pointer;
 }
 
-.header-right-container ul, li {
+.header-right-container ul {
     display: flex;
 }
 
