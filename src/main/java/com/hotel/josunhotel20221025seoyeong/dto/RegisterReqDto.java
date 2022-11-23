@@ -6,9 +6,9 @@ import lombok.Data;
 @Data
 public class RegisterReqDto {
 
-    private String firstName;
-
     private String lastName;
+
+    private String firstName;
 
     private String ID;
 

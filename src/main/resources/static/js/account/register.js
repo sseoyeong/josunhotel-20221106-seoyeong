@@ -4,8 +4,8 @@ registerButton.onclick = () => {
     const accountInputs = document.querySelectorAll(".account-input");
     
     let user = {
-        firstName: accountInputs[0].value,
-        lastName: accountInputs[1].value,
+        lastName: accountInputs[0].value,
+        firstName: accountInputs[1].value,
         ID: accountInputs[2].value,
         password: accountInputs[3].value,
         cfPassword: accountInputs[4].value
@@ -25,4 +25,6 @@ registerButton.onclick = () => {
             alert("회원가입 요청 실패");
         }
     });
+
+    
 }
