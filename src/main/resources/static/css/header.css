@@ -20,6 +20,12 @@
     cursor: pointer;
 }
 
+.nav-menu-button {
+    margin-top: 63px;
+
+    height: 100px;
+}
+
 .main-site-logo {
     padding-left: 12px;
 
