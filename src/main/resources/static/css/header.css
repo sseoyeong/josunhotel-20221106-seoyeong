@@ -51,6 +51,11 @@
     opacity: 0.5;
 }
 
+.reserveBtn {
+    margin-left: 20px;
+    padding: 0 10px;
+}
+
 .nav-invisible {
     display: none;
 }
