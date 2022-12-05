@@ -4,3 +4,9 @@ server:
 spring:
   mvc:
     static-path-pattern: /static/**
+
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://database-2.ckcprgdnytpw.ap-northeast-2.rds.amazonaws.com:3306/josunhotel-20221106
+    username: sseoyeong
+    password: 1q2w3e4r!
